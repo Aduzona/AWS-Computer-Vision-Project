@@ -61,7 +61,7 @@ Upload data to S3
 data = session.upload_data(path='dogImages', bucket=bucket, key_prefix='dogImages')
 
 ```
-![Data_uploaded_correctly](screenshots/3_Loaded_dataset_in_s3.png)
+![Data_uploaded_correctly](screenshots/3_Data_uploaded_correctly.png)
 
 ### Access
 Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has access to the data. 
